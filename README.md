@@ -22,10 +22,12 @@ they may not be in the most helpful form.
 #Project Details
 
 ###Note
+
 unfortunately I couldn't figure out how http://webdevelopertest.playfusionservices.com/webapptest/alternateNames/search/findByNameLike endpoint works.
 this endpoint return an exception when make a call with The wildcard character %. 
 but I implement the functionality that gives ability to Table columns to have search or filter. 
 the rest points are implemented, also project should be covered bt unit tests
 
 ###Technologies used for front end
+
 React, Material-ui, TypeScript, Webpack
