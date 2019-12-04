@@ -1,27 +1,31 @@
 #Task
-1. Create a table of recommendations from the data provided (60 mins). If time
-permits, implement interactive elements. The design can be straight forward: the
-columns provided in the file can be kept as they are, visual elements can be added
-to show e.g. the level of access or the type of messaging. The design team have
-provided an example (page 4) of how they’d expect this to be laid out, but feel free to
-get creative.
-2. Visualise the rep performance data provided. You are welcome to do this however
-you like, but the design team have provided a hastily-drawn wireframe which may
-help guide your work (see last page). You only have 90 minutes for this task, so you
-aren't expected to finish everything.
-3. Given that your time has been limited to work on this project, make some brief notes
-outlining how you would proceed if you had more time (15 mins).
+Your task is to build a web page to display information from a simple database of
+exoplanets that is being exposed by a set of Spring REST repositories which are
+exposed from the URL in the resources section of this document.
+The web page should be built in a modern interactive javascript framework. A
+basic page illustrating the functionality should take no more than a few hours.
+You are welcome to embellish the pages and data however you want to show off
+your skills.
+The definition is deliberately open ended on specifics, and does not include any
+tricks / gotchas, so you are at liberty to deliver the requirement using a
+display/layout/formatting that you feel best displays the data.
+The repositories have sufficient methods to perform all the required tasks but
+they may not be in the most helpful form.
 
 #How To Run
 
 1. Clone repository
-2. Run `yarn start` to run App on http://localhost:3000
+2. Run `yarn` or `npm install` to download all dependencies 
+2. Run `yarn start` to run App on `http://localhost:3000`
 3. Open page via following URL `http://localhost:3000/`
 
 #Project Details
 
-###Technologies used for front end
-React, Material-ui
+###Note
+unfortunately I couldn't figure out how http://webdevelopertest.playfusionservices.com/webapptest/alternateNames/search/findByNameLike endpoint works.
+this endpoint return an exception when make a call with The wildcard character %. 
+but I implement the functionality that gives ability to Table columns to have search or filter. 
+the rest points are implemented, also project should be covered bt unit tests
 
-###Technologies used for testing
-Jest, testing-library/react
+###Technologies used for front end
+React, Material-ui, TypeScript, Webpack
